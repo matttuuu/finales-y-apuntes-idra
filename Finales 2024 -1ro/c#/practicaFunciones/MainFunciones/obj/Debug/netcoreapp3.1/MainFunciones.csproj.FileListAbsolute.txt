@@ -1,0 +1,14 @@
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.exe
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.deps.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.runtimeconfig.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.runtimeconfig.dev.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.dll
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\bin\Debug\netcoreapp3.1\MainFunciones.pdb
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.AssemblyInfo.cs
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.dll
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.pdb
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFunciones\MainFunciones\obj\Debug\netcoreapp3.1\MainFunciones.genruntimeconfig.cache

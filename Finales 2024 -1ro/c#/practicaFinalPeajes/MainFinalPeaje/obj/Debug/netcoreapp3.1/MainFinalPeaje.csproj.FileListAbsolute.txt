@@ -1,0 +1,14 @@
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.exe
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.deps.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.runtimeconfig.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.runtimeconfig.dev.json
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.dll
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\bin\Debug\netcoreapp3.1\MainFinalPeaje.pdb
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.AssemblyInfo.cs
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.dll
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.pdb
+C:\Users\gc\Desktop\Finales 2024 -1ro\c#\practicaFinalPeajes\MainFinalPeaje\obj\Debug\netcoreapp3.1\MainFinalPeaje.genruntimeconfig.cache
