@@ -4,6 +4,12 @@ namespace MainFunciones
 {
     class Program
     {
+         static void Saludar()
+        {
+            Console.WriteLine("Saludos desde metodo saludar");
+        }
+
+
         static void Main(string[] args)
         {
             //Archivo de practica con distintas funciones
@@ -88,15 +94,14 @@ namespace MainFunciones
 
 
             //(2)
-
-            CalcularImpuesto(130000);
-
-
-
+            
+            CalcularImpuesto();
+            Saludar();
 
 
 
-        }
+
+        }/////Fin de main
 
 
 
@@ -117,28 +122,47 @@ namespace MainFunciones
 
         //}
 
-   
+
         //2-a
-        static void CalcularImpuesto(double gananciaAnual)
+        static void CalcularImpuesto()
         {
             double impuesto = 0;
+            double gananciaAnual;
+            
+            Console.WriteLine("Indique la ganacia anual; se calculara y se mostrara el impuesto correspondiente\n" +
+                "Ingrese 0 para dejar de cargar ganancias");
+                gananciaAnual = double.Parse(Console.ReadLine());
+            while (gananciaAnual != 0)
+            {           
 
-            if (gananciaAnual < 100000)
-            {
-                Console.WriteLine("IMPU: " + impuesto);
-            }
-            else if (gananciaAnual >= 100000 && gananciaAnual < 150000)
-            {
-                impuesto = (2/100)* (gananciaAnual - 100000);
-                Console.WriteLine("IMPU " + impuesto);
-            }
-            else if (gananciaAnual > 150000)
-            {
-                
-                Console.WriteLine("blee");
-            }
+                if (gananciaAnual < 100000)
+                {
+                    Console.WriteLine("IMPU: " + impuesto);
+                }
+                else if (gananciaAnual >= 100000 && gananciaAnual < 150000)
+                {
+                    double resultado = gananciaAnual - 100000;
+                    impuesto = (resultado * 2) / 100; //600 si tomamos como referencia 130000
+                    Console.WriteLine("IMPU: " + impuesto);
+
+                }
+                else if (gananciaAnual >= 150000)
+                {
+                    double resultado = gananciaAnual - 150000;
+                    impuesto = ((resultado * 5) / 100) + 3000;
+                    Console.WriteLine("IMPU: " + impuesto);
+                }
+            }      
+            
         }
+        
+
+        
+
+
+
 
 
     }
+
 }

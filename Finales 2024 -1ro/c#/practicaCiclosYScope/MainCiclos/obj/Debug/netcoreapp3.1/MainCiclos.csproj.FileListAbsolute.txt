@@ -1,0 +1,14 @@
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.deps.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.runtimeconfig.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.runtimeconfig.dev.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\bin\Debug\netcoreapp3.1\MainCiclos.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.AssemblyInfo.cs
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\practicaCiclosYScope\MainCiclos\obj\Debug\netcoreapp3.1\MainCiclos.genruntimeconfig.cache

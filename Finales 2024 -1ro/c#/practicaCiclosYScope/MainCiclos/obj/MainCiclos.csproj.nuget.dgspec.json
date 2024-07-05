@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFunciones\\MainFunciones\\MainFunciones.csproj": {}
+    "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaCiclosYScope\\MainCiclos\\MainCiclos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFunciones\\MainFunciones\\MainFunciones.csproj": {
+    "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaCiclosYScope\\MainCiclos\\MainCiclos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFunciones\\MainFunciones\\MainFunciones.csproj",
-        "projectName": "MainFunciones",
-        "projectPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFunciones\\MainFunciones\\MainFunciones.csproj",
+        "projectUniqueName": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaCiclosYScope\\MainCiclos\\MainCiclos.csproj",
+        "projectName": "MainCiclos",
+        "projectPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaCiclosYScope\\MainCiclos\\MainCiclos.csproj",
         "packagesPath": "C:\\Users\\gc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFunciones\\MainFunciones\\obj\\",
+        "outputPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaCiclosYScope\\MainCiclos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
