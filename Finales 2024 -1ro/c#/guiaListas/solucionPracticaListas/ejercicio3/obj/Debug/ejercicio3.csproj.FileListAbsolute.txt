@@ -1,0 +1,7 @@
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\bin\Debug\ejercicio3.exe.config
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\bin\Debug\ejercicio3.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\bin\Debug\ejercicio3.pdb
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\obj\Debug\ejercicio3.csproj.AssemblyReference.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\obj\Debug\ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\obj\Debug\ejercicio3.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio3\obj\Debug\ejercicio3.pdb

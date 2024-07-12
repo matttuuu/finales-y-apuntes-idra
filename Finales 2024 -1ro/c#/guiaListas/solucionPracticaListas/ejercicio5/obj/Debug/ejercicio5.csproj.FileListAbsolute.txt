@@ -1,0 +1,7 @@
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\bin\Debug\ejercicio5.exe.config
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\bin\Debug\ejercicio5.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\bin\Debug\ejercicio5.pdb
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\obj\Debug\ejercicio5.csproj.AssemblyReference.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\obj\Debug\ejercicio5.csproj.CoreCompileInputs.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\obj\Debug\ejercicio5.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejercicio5\obj\Debug\ejercicio5.pdb

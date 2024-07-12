@@ -19,14 +19,24 @@ namespace ejercicio3
         public void CargarLista(InformacionOperario[] array) //ver como cargar una lista desde un arreglo con un for
         {
             NodoOperarios nuevo = new NodoOperarios();
-            for (int i = 0; i < array.Length; i++)
-            {
-                nuevo.nombreOperario = array[i].nombre;
-                nuevo.apellidoOperario = array[i].apellido;
-                nuevo.categoriaOperario = array[i].categoria;
-                nuevo.sueldoOperario = array[i].sueldo;
+            nuevo.siguiente = null;
+          
+            nuevo.nombreOperario = array[0].nombre;
+            nuevo.apellidoOperario = array[0].apellido;
+            nuevo.categoriaOperario = array[0].categoria;
+            nuevo.sueldoOperario = array[0].sueldo;
 
+            if (primero == null)
+            {
+                primero = nuevo;
+                ultimo = nuevo;
             }
+            else
+            {
+                ultimo.siguiente = nuevo;
+                ultimo = nuevo;
+            }
+            
             Console.WriteLine("Se cargo un operario");
             
         }
@@ -39,8 +49,17 @@ namespace ejercicio3
 
             if (primero != null)
             {
-
+                while (actual != null)
+                {
+                    Console.WriteLine("Nombre: " + actual.nombreOperario + "\n" +
+                        "Apellido: " + actual.apellidoOperario + "\n" +
+                        "Categoria: "  + actual.categoriaOperario + "\n" +
+                        "Sueldo: " + actual.sueldoOperario);
+                    actual = actual.siguiente;
+                }
             }
+            else
+                Console.WriteLine("La lista esta vacia");
         }
     }
 }
