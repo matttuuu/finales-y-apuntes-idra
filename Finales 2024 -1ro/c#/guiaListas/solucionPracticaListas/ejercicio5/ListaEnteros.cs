@@ -21,9 +21,12 @@ namespace ejercicio5
         {
             NodoEnteros nuevo = new NodoEnteros();
             nuevo.siguiente = null;
+            Random r = new Random();
+            
 
            
             nuevo.NUMERO = num;
+            nuevo.id = "N" + r.Next(0,101); // 1 a 100
 
             if (primero == null)
             {
@@ -38,10 +41,58 @@ namespace ejercicio5
             }
             else if (nuevo.NUMERO <= ultimo.NUMERO)
             {
-                ultimo.siguiente = nuevo;
+                ultimo.siguiente = nuevo; //al final
                 ultimo = nuevo;
             }
+            else // al diome - la  tecninca del 5532 (o capaz tambien 532)
+            {
+                NodoEnteros actual = primero;
+
+                if (actual.NUMERO > nuevo.NUMERO && actual.siguiente.NUMERO <= nuevo.NUMERO) // funciona
+                {
+                    nuevo.siguiente = actual.siguiente;
+                    actual.siguiente = nuevo;
+                }
+                else
+                    actual = actual.siguiente;
+            }
             Console.WriteLine("Numero agregado");
+        }
+
+        public void AgregarNumero()
+        {
+            int num = -1;
+            while (num !=0)
+            {
+                Console.WriteLine("Ingrese el numero a cargar a lista; ingrese 0 para indicar fin de carga");
+                num = int.Parse(Console.ReadLine());
+                if (num != 0)
+                {
+                    NodoEnteros nuevo = new NodoEnteros();
+                    Random r = new Random();
+                    nuevo.siguiente = null;
+
+                    nuevo.NUMERO = num;
+                    nuevo.id = "N" + r.Next(0,101);
+                    
+
+                    if (primero == null)
+                    {
+                        primero = nuevo;
+                        ultimo = nuevo;
+                    }
+                    else //al final
+                    {
+                        ultimo.siguiente = nuevo;
+                        ultimo = nuevo;
+                    }
+
+                }
+
+            }
+            
+            
+            
         }
 
         public void MostrarLista()
@@ -63,6 +114,10 @@ namespace ejercicio5
             else
                 Console.WriteLine("La lista esta vacia");
         }
+
+        //Estos metodos no son del ejercicio, pero me gustaria practicarlos
+        //Busqueda-Eliminacion
+        // para esto le voy a agregar un campo id a cada nodo que sea aleatorio
 
 
        

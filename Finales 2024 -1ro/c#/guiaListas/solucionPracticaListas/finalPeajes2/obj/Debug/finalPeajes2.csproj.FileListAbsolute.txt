@@ -5,3 +5,10 @@ C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\g
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.csproj.CoreCompileInputs.cache
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.exe
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\bin\Debug\finalPeajes2.exe.config
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\bin\Debug\finalPeajes2.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\bin\Debug\finalPeajes2.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalPeajes2\obj\Debug\finalPeajes2.pdb

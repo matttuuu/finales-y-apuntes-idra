@@ -76,5 +76,31 @@ namespace finalPeajes2
                 Console.WriteLine("Lista vacia; no hay autos con infracciones");
             
         }
+
+        public bool CiudadExistente(string nombreCiudad) //metodo que me dice si una ciudad existe o no
+        {
+            bool existe = false;
+            Nodo actual = primero;
+
+            if (primero != null)
+            {
+                while ( actual !=null && existe == false )
+                {
+                    if (actual.nombreCiudad == nombreCiudad)
+                    {
+                        existe = true;
+                    }
+                    else
+                        actual = actual.siguiente;
+
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("No hay elementos en la lista");
+            }
+            return existe;
+        }
     }
 }

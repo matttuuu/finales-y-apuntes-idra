@@ -23,16 +23,27 @@ namespace finalPeajes2
             Lista l = new Lista();
             int paseMin, paseMax;
             Autos[] arrPases = new Autos[500];
+
             CargarArreglo(arrPases);
             MostrarArreglo(arrPases);
+
             Console.WriteLine(" -- Ingrese los numeros de pases correspondientes para el rango de infracciones -- " + "\n" +
                 "Pase minimo: ");
             paseMin = int.Parse(Console.ReadLine());
             Console.WriteLine("Pase maximo: ");
             paseMax = int.Parse(Console.ReadLine());
 
-            l.MostrarLista();//Si esto no muestra nada, puede que sea porque la instancia de lista es distinta a la que se crea del metodo
+            //RecorrerArreglo(arrPases,paseMin,paseMax,l);
 
+            l.MostrarLista();
+            Console.WriteLine("Ingrese un nombre/id de ciudad a buscar, se indicara si existe o no");
+            string testCiudad = Console.ReadLine();
+            bool test = l.CiudadExistente(testCiudad);
+
+            if (test == false)
+                Console.WriteLine("No existe la ciudad");
+            else
+                Console.WriteLine("Existe la ciudad");
 
             Console.ReadKey();
         }
@@ -86,34 +97,25 @@ namespace finalPeajes2
             }
         }
 
-        public static void RecorrerArreglo(Autos[] array, int min, int max)
+        public static void RecorrerArreglo(Autos[] array, int min, int max, Lista l)
         {
-            Lista l = new Lista();
-            
-
             for (int i = 0; i < array.Length; i++)
             {
                 string ciudad;
                 int cantInfracciones = 0;
-                if (array[i].nroPase >= min && array[i].nroPase <= max)
+
+                if (array[i].nroPase >= min && array[i].nroPase <= max && array[i].cantidadDeCinturones < array[i].cantidadDePasajeros) //entro si el nro de pase esta comprendido entre los 2 pases y si hay mas gente que cinturones
                 {
+                    ciudad = array[i].ciudadDestino;
 
-                    //Evaluo - ¿Esta en infracción? (mas pasajeros que cinturones)
-                    if (array[i].cantidadDePasajeros > array[i].cantidadDeCinturones)
+                    if (l.CiudadExistente(ciudad) == false)
                     {
-                        ciudad = array[i].ciudadDestino;
-                        for (int j = 0; j < array.Length; j++)
-                        {
-                            if (array[j].ciudadDestino == ciudad.ToUpper() && array[j].cantidadDeCinturones < array[j].cantidadDePasajeros )
-                            {
-                                cantInfracciones++;
-                            }
-                        }
-
-                        l.AgregarALista(ciudad, cantInfracciones);
+                        l.AgregarALista(ciudad,cantInfracciones);//seguir razonando esta logica
+                        //se va a poder :)
                     }
-
                 }
+                
+
             }
         }
 

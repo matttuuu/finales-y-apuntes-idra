@@ -9,6 +9,7 @@ namespace ejercicio5
     class NodoEnteros
     {
         public int NUMERO;
+        public string id;
         public NodoEnteros siguiente;
     }
 }
