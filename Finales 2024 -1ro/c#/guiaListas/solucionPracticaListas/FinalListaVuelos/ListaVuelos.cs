@@ -46,23 +46,43 @@ namespace FinalListaVuelos
             nuevo.asientosTotales = int.Parse(Console.ReadLine());
             nuevo.asientosDisponibles = nuevo.asientosTotales;
             nuevo.tomadoresDeReservas = "";
-            Console.WriteLine("Se cargo un vuelo nuevo");
+            
 
-            if (primero == null)
+            if (primero == null)//Si no hay nada
             {
                 primero = nuevo;
                 ultimo = nuevo;
             }
-            else if (nuevo.codCiudadDestino >= primero.codCiudadDestino )
+            else if (nuevo.codCiudadDestino >= primero.codCiudadDestino ) // Si el nuevo nodo es mas grande o igual que el primero
             {
                 nuevo.siguiente = primero;
                 primero = nuevo;
             }
-            else
+            else if (nuevo.codCiudadDestino <= ultimo.codCiudadDestino) //Si el nuevo nodo  es mas chiquito o igual que el ultimo nodo
             {
                 ultimo.siguiente = nuevo;
                 ultimo = nuevo;
             }
+            else //al medio
+            {
+                NodoVuelos actual = primero; //Creo un nodo actual
+                while (actual!= null)
+                {
+                    if (nuevo.codCiudadDestino > actual.siguiente.codCiudadDestino && nuevo.codCiudadDestino <= actual.codCiudadDestino)
+                    { //Si el dato del nuevo nodo es mas grande del de la derecha del actual, y tambien igual o mas chico que el actual 
+                        nuevo.siguiente = actual.siguiente;
+                        actual.siguiente = nuevo;
+                        
+                        break;
+                    }
+                    else
+                        actual = actual.siguiente;
+
+                }
+
+                    
+            }
+            Console.WriteLine("Se cargo un vuelo nuevo");
         }
 
 

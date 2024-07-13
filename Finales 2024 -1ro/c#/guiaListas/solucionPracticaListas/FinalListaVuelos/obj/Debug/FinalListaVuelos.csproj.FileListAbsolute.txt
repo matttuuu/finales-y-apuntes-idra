@@ -5,3 +5,10 @@ C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\g
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.csproj.CoreCompileInputs.cache
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.exe
 C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\bin\Debug\FinalListaVuelos.exe.config
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\bin\Debug\FinalListaVuelos.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\bin\Debug\FinalListaVuelos.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\FinalListaVuelos\obj\Debug\FinalListaVuelos.pdb
