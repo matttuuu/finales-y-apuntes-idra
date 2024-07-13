@@ -82,7 +82,6 @@ namespace MainCiclos
             
 
             for (int i = 0; i < ArrayDeStrings.Length; i++)
-
             {
                 string msg;
                 Console.WriteLine("ingrese string de posicion: " + (i+1)  + " / " + (ArrayDeStrings.Length));
