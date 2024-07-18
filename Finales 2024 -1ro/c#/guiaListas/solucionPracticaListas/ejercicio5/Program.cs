@@ -57,8 +57,16 @@ namespace ejercicio5
             Console.WriteLine("Despues de cargar con el metodo sin parametros, la lista quedaria:");
             l.MostrarLista();
 
+            Console.WriteLine("Busqueda: ingrese el id del nodo que desea buscar ");
+            l.BuscarNodo(Console.ReadLine());
+
+            Console.WriteLine("Eliminacion  de nodo: ");
+            Console.WriteLine("Ingrese el id del nodo a sacar: ");
+            l.EliminarNodo(Console.ReadLine());
 
 
+            Console.WriteLine("(Mensaje del main:) la lista resultante es:  ");
+            l.MostrarLista();
             Console.ReadKey();
         }
     }

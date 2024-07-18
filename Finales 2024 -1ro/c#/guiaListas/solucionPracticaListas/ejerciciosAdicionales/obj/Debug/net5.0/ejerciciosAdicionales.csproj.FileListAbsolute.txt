@@ -1,0 +1,16 @@
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.deps.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.runtimeconfig.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.runtimeconfig.dev.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ref\ejerciciosAdicionales.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\bin\Debug\net5.0\ejerciciosAdicionales.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.AssemblyInfo.cs
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ref\ejerciciosAdicionales.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\ejerciciosAdicionales\obj\Debug\net5.0\ejerciciosAdicionales.genruntimeconfig.cache

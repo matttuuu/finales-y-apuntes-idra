@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalListaVuelos", "FinalLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "finalPeajes2", "finalPeajes2\finalPeajes2.csproj", "{7D9B3AFC-D2AB-4681-96C1-35035433715A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejerciciosAdicionales", "ejerciciosAdicionales\ejerciciosAdicionales.csproj", "{C7032713-7C7A-48B0-A5E2-F2D2591D2E03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7D9B3AFC-D2AB-4681-96C1-35035433715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9B3AFC-D2AB-4681-96C1-35035433715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9B3AFC-D2AB-4681-96C1-35035433715A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7032713-7C7A-48B0-A5E2-F2D2591D2E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7032713-7C7A-48B0-A5E2-F2D2591D2E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7032713-7C7A-48B0-A5E2-F2D2591D2E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7032713-7C7A-48B0-A5E2-F2D2591D2E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
