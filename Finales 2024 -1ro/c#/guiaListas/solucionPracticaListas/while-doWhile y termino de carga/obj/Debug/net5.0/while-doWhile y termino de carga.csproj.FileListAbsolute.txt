@@ -1,0 +1,16 @@
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.deps.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.runtimeconfig.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.runtimeconfig.dev.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\ref\while-doWhile y termino de carga.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\bin\Debug\net5.0\while-doWhile y termino de carga.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.AssemblyInfo.cs
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\ref\while-doWhile y termino de carga.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.genruntimeconfig.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\while-doWhile y termino de carga\obj\Debug\net5.0\while-doWhile y termino de carga.csproj.AssemblyReference.cache

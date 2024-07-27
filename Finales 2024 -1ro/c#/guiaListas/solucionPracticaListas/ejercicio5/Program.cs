@@ -20,6 +20,7 @@ namespace ejercicio5
             //Con parametro
             int numero = -1;           
 
+
             //do
             //{
             //    Console.WriteLine("Numero nuevo (0 para dejar de cargar):  ");

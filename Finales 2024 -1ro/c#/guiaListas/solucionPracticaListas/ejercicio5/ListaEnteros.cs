@@ -39,7 +39,8 @@ namespace ejercicio5
                 nuevo.siguiente = primero;
                 primero = nuevo;
             }
-            else if (nuevo.NUMERO <= ultimo.NUMERO)
+            else if (nuevo.NUMERO <=
+                ultimo.NUMERO)
             {
                 ultimo.siguiente = nuevo; //al final
                 ultimo = nuevo;

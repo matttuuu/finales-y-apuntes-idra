@@ -11,7 +11,7 @@ namespace ejerciciosAdicionales
         public int idPedido;
         public string nombreCliente;
 
-       
+        public double montoPedido;
         public int comidaSeleccionada;
         public NodoPizzaCafe siguiente;
     }

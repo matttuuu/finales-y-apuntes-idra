@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "while-doWhile y termino de carga/1.0.0": {
+        "runtime": {
+          "while-doWhile y termino de carga.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "while-doWhile y termino de carga/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

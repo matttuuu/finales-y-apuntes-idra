@@ -33,17 +33,19 @@ namespace finalPeajes2
             Console.WriteLine("Pase maximo: ");
             paseMax = int.Parse(Console.ReadLine());
 
-            //RecorrerArreglo(arrPases,paseMin,paseMax,l);
+            RecorrerArreglo(arrPases,paseMin,paseMax,l);
+
+
 
             l.MostrarLista();
-            Console.WriteLine("Ingrese un nombre/id de ciudad a buscar, se indicara si existe o no");
-            string testCiudad = Console.ReadLine();
-            bool test = l.CiudadExistente(testCiudad);
+            //Console.WriteLine("Ingrese un nombre/id de ciudad a buscar, se indicara si existe o no");
+            //string testCiudad = Console.ReadLine();
+            //bool test = l.CiudadExistente(testCiudad);
 
-            if (test == false)
-                Console.WriteLine("No existe la ciudad");
-            else
-                Console.WriteLine("Existe la ciudad");
+            //if (test == false)
+            //    Console.WriteLine("No existe la ciudad");
+            //else
+            //    Console.WriteLine("Existe la ciudad");
 
             Console.ReadKey();
         }
@@ -102,17 +104,23 @@ namespace finalPeajes2
             for (int i = 0; i < array.Length; i++)
             {
                 string ciudad;
+
                 int cantInfracciones = 0;
+                ciudad = array[i].ciudadDestino;
 
-                if (array[i].nroPase >= min && array[i].nroPase <= max && array[i].cantidadDeCinturones < array[i].cantidadDePasajeros) //entro si el nro de pase esta comprendido entre los 2 pases y si hay mas gente que cinturones
+                if (array[i].nroPase > min && array[i].nroPase < max && array[i].cantidadDeCinturones < array[i].cantidadDePasajeros) //entro si el nro de pase esta comprendido entre los 2 pases y si hay mas gente que cinturones
                 {
-                    ciudad = array[i].ciudadDestino;
-
-                    if (l.CiudadExistente(ciudad) == false)
+                    
+                    if (!l.CiudadExistente(ciudad))
                     {
                         l.AgregarALista(ciudad,cantInfracciones);//seguir razonando esta logica
                         //se va a poder :)
                     }
+                    else
+                    {
+                        l.ActualizarCiudad(ciudad);
+                    }
+
                 }
                 
 

@@ -27,6 +27,24 @@ namespace ejerciciosAdicionales
                 "");
             l.InsertarPedido();
             l.MostrarListaPedidos();
+
+            Console.WriteLine("Ingrese un id de lista para buscar un pedido");
+            int pedidoABuscar = int.Parse(Console.ReadLine());
+            l.VerificarPedido(pedidoABuscar);
+            l.ObtenerPromedio();
+
+
+            Console.WriteLine(" Ahora, ingrese un id de pedido para eliminar de la lista");
+            int pedidoAEliminar = int.Parse(Console.ReadLine());
+            l.EliminarPedido(pedidoAEliminar);
+
+
+            l.MostrarListaPedidos();
+
+            Console.WriteLine("Finalizo el programa");
+            Console.ReadKey();
+
+            
         }
     }
 }

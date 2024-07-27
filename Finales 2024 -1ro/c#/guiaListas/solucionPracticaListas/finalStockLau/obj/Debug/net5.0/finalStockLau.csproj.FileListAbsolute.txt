@@ -1,0 +1,16 @@
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.deps.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.runtimeconfig.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.runtimeconfig.dev.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\ref\finalStockLau.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\bin\Debug\net5.0\finalStockLau.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.AssemblyInfo.cs
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\ref\finalStockLau.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau\obj\Debug\net5.0\finalStockLau.genruntimeconfig.cache

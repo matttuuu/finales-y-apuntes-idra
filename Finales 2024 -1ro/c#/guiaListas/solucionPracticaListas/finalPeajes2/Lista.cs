@@ -30,7 +30,7 @@ namespace finalPeajes2
                 primero = nuevo;
                 ultimo = nuevo;
             }
-            else if (nuevo.cantidadAutosInfraccionados >= primero.cantidadAutosInfraccionados)
+            else if (nuevo.cantidadAutosInfraccionados > primero.cantidadAutosInfraccionados)
             {
                 nuevo.siguiente = primero;
                 primero = nuevo;
@@ -101,6 +101,22 @@ namespace finalPeajes2
                 Console.WriteLine("No hay elementos en la lista");
             }
             return existe;
+        }
+
+
+
+        public void ActualizarCiudad(string ciudad)  // seria  el "actualizar" una ciudad que ya existe con una infraccion mas
+        {
+            Nodo actual = primero;
+
+            while (actual != null)
+            {
+                if (actual.nombreCiudad == ciudad)
+                {
+                    actual.cantidadAutosInfraccionados++;
+                }
+                actual = actual.siguiente;
+            }
         }
     }
 }
