@@ -1,0 +1,7 @@
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\bin\Debug\finalStockLau-Notebook.exe.config
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\bin\Debug\finalStockLau-Notebook.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\bin\Debug\finalStockLau-Notebook.pdb
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\obj\Debug\finalStockLau-Notebook.csproj.AssemblyReference.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\obj\Debug\finalStockLau-Notebook.csproj.CoreCompileInputs.cache
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\obj\Debug\finalStockLau-Notebook.exe
+C:\Users\matuc\OneDrive\Escritorio\finales-y-apuntes-idra\Finales 2024 -1ro\c#\guiaListas\solucionPracticaListas\finalStockLau-Notebook\obj\Debug\finalStockLau-Notebook.pdb
