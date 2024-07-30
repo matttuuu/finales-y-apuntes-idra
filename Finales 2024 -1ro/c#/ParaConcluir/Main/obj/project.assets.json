@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\gc\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFinalPeajes\\MainFinalPeaje\\MainFinalPeaje.csproj",
-      "projectName": "MainFinalPeaje",
-      "projectPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFinalPeajes\\MainFinalPeaje\\MainFinalPeaje.csproj",
+      "projectUniqueName": "C:\\Users\\gc\\source\\repos\\ParaConcluir\\Main\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "C:\\Users\\gc\\source\\repos\\ParaConcluir\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\gc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gc\\Desktop\\finales-y-apuntes-idra\\Finales 2024 -1ro\\c#\\practicaFinalPeajes\\MainFinalPeaje\\obj\\",
+      "outputPath": "C:\\Users\\gc\\source\\repos\\ParaConcluir\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,15 +29,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -48,8 +48,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
