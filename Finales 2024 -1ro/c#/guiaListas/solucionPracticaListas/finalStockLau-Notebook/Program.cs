@@ -13,17 +13,21 @@ namespace finalStockLau_Notebook
         public double precio_producto;
         public int stock_producto;
     }
+  
 
     class Program
     {
        
-
-
         static void Main(string[] args)
         {
             Lista l = new Lista();
+
             int opcion = -1;
+
             Productos p = new Productos();
+
+            int[] IDsProductosAgotados = new int[500];
+
 
 
             Console.WriteLine("SISTEMA STOCK");
@@ -32,12 +36,13 @@ namespace finalStockLau_Notebook
                 
                 Console.WriteLine($"Ingrese una opcion para administrar la lista de productos\n" +
                     $"----1 - Agregar productos\n" +
-                    
-                    
                     $"----2 - Listar lista de productos guardados\n" +
                     $"----3 - Actualizar stock de producto\n" +
                     $"----4 - Buscar producto(coming soon!)\n" +
-                    $"----5 - Mostrar por codigo ");
+                    $"----5 - Mostrar por codigo \n" +
+                    $"----6 - Borrar producto\n" +
+                    $"----7 - Generar reporte de productos agotados" +
+                    $"");
 
                 opcion = int.Parse(Console.ReadLine());
                 switch (opcion)
@@ -54,16 +59,23 @@ namespace finalStockLau_Notebook
                         l.ActualizarStock();
                         break;
 
-                    case 4:
+                    case 4: //funcion interna, de busqqueda de productos
                         break;
 
                     case 5:
-                        l.MostrarPorCodigo();
+                        Console.WriteLine("Ingrese el codigo(id) del producto que desea buscar para mostrar su informacion"); 
+                        int codigoIngresado = int.Parse(Console.ReadLine());
+                        l.MostrarPorCodigo(codigoIngresado);
                         break;
 
                     case 6:
                         l.BorrarProducto();
                         break;
+
+                    case 7:
+                        l.GenerarReporteAgotados(IDsProductosAgotados);
+                        break;
+
                     default:
                         Console.WriteLine("Ingrese una opcion valida");
                         break;
@@ -71,25 +83,12 @@ namespace finalStockLau_Notebook
 
             } while (opcion != 0);
 
-            
-
-
-
-
-
-
-
-
-            
-
+                   
             Console.ReadKey();
         }
 
         public static void ValidarProducto(Lista lista)
         {
-
-          
-
 
             Productos producto = new Productos(); // instancia de struct 
 

@@ -17,7 +17,7 @@ namespace finalStockLau_Notebook
             ultimo = null;
         }
 
-        public void RegistrarProducto(Productos producto) // insertar nodo en la lista (mayor a menor)
+        public void RegistrarProducto(Productos producto) // insertar nodo en la lista (mayor a menor) ///en este caso lo  hago con una instancia de struct,no con array en si :P
         {
 
             Nodo nuevo = new Nodo();
@@ -33,12 +33,12 @@ namespace finalStockLau_Notebook
                 primero = nuevo;
                 ultimo = nuevo;
             }
-            else if (nuevo.codigoProducto >= primero.codigoProducto)
+            else if (nuevo.codigoProducto > primero.codigoProducto)
             {
                 nuevo.siguiente = primero;
                 primero = nuevo;
             }
-            else if (nuevo.codigoProducto < ultimo.codigoProducto)
+            else if (nuevo.codigoProducto <= ultimo.codigoProducto)
             {
                 ultimo.siguiente = nuevo;
                 ultimo = nuevo;
@@ -125,8 +125,7 @@ namespace finalStockLau_Notebook
 
         }
 
-        
-
+  
         public void VisualizarProductos() //mostrar lista
         {
             Nodo actual = primero;
@@ -171,7 +170,6 @@ namespace finalStockLau_Notebook
             }
 
             return existe;
-
         }
 
         public void ActualizarStock () //metodo que permite elegir entre agregar o restar el stock de un producto de la lista
@@ -251,8 +249,7 @@ namespace finalStockLau_Notebook
 
         private Productos BuscarProducto(int codigoABuscar)//(4) funcion Interna, la funcion 4 busca y devuelve, y la funcion 6 muestra (como la complican)
         {
-
-            //! PUEDE SER QUE ESTA FUNCION SE MANEJE EN BASE A ARRAYS DE STRUCTS, Y NO UNA INSTANCIA SOLA DE STRUCT
+          
             Productos productoEncontrado = new Productos();
             Nodo actual = new Nodo();
             actual = primero;
@@ -274,29 +271,58 @@ namespace finalStockLau_Notebook
                 }
             }
             
-            
-
-
             return productoEncontrado;
         }
 
         //5
 
-        public void MostrarPorCodigo() //(6) este metodo utiliza al metodo 4 (debe recibir por parametro)
+        public void MostrarPorCodigo(int codigoIngresado) //(6) este metodo utiliza al metodo 4 (debe recibir por parametro)
         {
-            Console.WriteLine("Ingrese el codigo(id) del producto que desea buscar para mostrar su informacion");
-            int codigoIngresado = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese el codigo(id) del producto que desea buscar para mostrar su informacion"); /////COMENTO ESTO PARA QUE CAMBIE EL MODO DE USO
+            //int codigoIngresado = int.Parse(Console.ReadLine());
            
             Console.WriteLine("***  *** *** *** ");
             Console.WriteLine($"Codigo: {BuscarProducto(codigoIngresado).codigo}\n" +
                 $"Nombre del producto: {BuscarProducto(codigoIngresado).nombre_producto}\n" +
                 $"Precio: {BuscarProducto(codigoIngresado).precio_producto}\n" +
-                $"Stock dispoinble: {BuscarProducto(codigoIngresado).stock_producto}" );
+                $"Stock disponible: {BuscarProducto(codigoIngresado).stock_producto}" );
             //revisar como es eso de que el metodo 4 me de null :P
         }
 
-        public void GenerarReporteAgotados()
+        public void GenerarReporteAgotados(int [] arrayCodigosAgotados) // Ingresa el codigo del producto en un array, si tiene stock 0. Acto seguido, usa la funcion 6) para mostrar 
+            // la info cargada en el arreglo (la cual a su vez, usa el punto 4 dentro de si)
         {
+            Nodo actual = primero;
+
+            if (primero == null)
+            {
+                Console.WriteLine("No se puede generar el reporte ya que la lista está vacia");
+                
+            }
+            else if (primero != null)
+            {
+                int i = 0;
+
+                while (actual != null)
+                {
+
+                    if (actual.cantidadEnStock == 0) //Producto agotado (stock igual a 0)
+                    {
+                        arrayCodigosAgotados[i] = actual.codigoProducto;
+                        i++;
+                    }
+                    
+                    actual = actual.siguiente;
+                }
+
+            }
+
+            Console.WriteLine(" Informacion de arreglo: ");
+
+            for (int i = 0; i < arrayCodigosAgotados.Length && arrayCodigosAgotados[i] != 0; i++)
+            {
+                MostrarPorCodigo(arrayCodigosAgotados[i]);
+            }
 
         }
 
@@ -314,11 +340,11 @@ namespace finalStockLau_Notebook
                 Console.WriteLine("La lista esta vacia; no se puede eliminar");
             }
 
-            else if(primero.codigoProducto == idAEliminar)
+            else if(primero.codigoProducto == idAEliminar) // Lo eliminamos si es que está al principio
             {
                 primero = primero.siguiente;
             }
-            else if (ultimo.codigoProducto == idAEliminar)
+            else if (ultimo.codigoProducto == idAEliminar) // Lo eliminamos si esta a l final
             {
                 while (actual!=null)
                 {
@@ -328,10 +354,11 @@ namespace finalStockLau_Notebook
                     if (actual == ultimo)
                     {
                         anterior.siguiente = null;
-                        ultimo = anterior;//hmm
+                        ultimo = anterior; // "El que le sigue al anterior va a ser nulo, y despues, el ultimo pasara a ser el anterior"
                     }
+                    
                 }
-                
+
             }
             else // al medio
             {
@@ -353,10 +380,6 @@ namespace finalStockLau_Notebook
 
         }
 
-
-
     }
-
-
 
 }

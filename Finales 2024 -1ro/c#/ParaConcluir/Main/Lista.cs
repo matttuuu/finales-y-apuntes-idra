@@ -101,6 +101,7 @@ namespace Main
         {
             bool finCarga = false;
 
+
             do
             {
 
@@ -156,6 +157,9 @@ namespace Main
                     }
 
                 }
+
+
+
 
 
                 Console.WriteLine("Persona Insertada");
@@ -279,7 +283,7 @@ namespace Main
 
             }
         }
-
+        //  Good luck! :D
     }
 
 

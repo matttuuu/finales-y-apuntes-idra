@@ -14,3 +14,19 @@ C:\Users\gc\source\repos\ParaConcluir\Main\obj\Debug\net5.0\Main.dll
 C:\Users\gc\source\repos\ParaConcluir\Main\obj\Debug\net5.0\ref\Main.dll
 C:\Users\gc\source\repos\ParaConcluir\Main\obj\Debug\net5.0\Main.pdb
 C:\Users\gc\source\repos\ParaConcluir\Main\obj\Debug\net5.0\Main.genruntimeconfig.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.exe
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.deps.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.runtimeconfig.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.runtimeconfig.dev.json
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\ref\Main.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\bin\Debug\net5.0\Main.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.csproj.AssemblyReference.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.AssemblyInfoInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.AssemblyInfo.cs
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.csproj.CoreCompileInputs.cache
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\ref\Main.dll
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.pdb
+C:\Users\gc\Desktop\finales-y-apuntes-idra\Finales 2024 -1ro\c#\ParaConcluir\Main\obj\Debug\net5.0\Main.genruntimeconfig.cache

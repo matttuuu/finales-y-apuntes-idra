@@ -19,6 +19,7 @@ namespace Main
             //Uso una clase nodo y una lista
 
             Lista l = new Lista();
+            ListaPersona lp = new ListaPersona();
 
 
             //Empezaremos con un menu, para que el usuario pueda seleccionar su opcion
@@ -105,7 +106,7 @@ namespace Main
 
                         DetallesPersonas[] arregloUsuariosOnline = new DetallesPersonas[cardinalidad];
 
-                        CargarArreglo(arregloUsuariosOnline); // y nos vamos hacia este medoto...
+                        CargarArreglo(arregloUsuariosOnline, lp); // y nos vamos hacia este medoto...
 
 
                         break;
@@ -125,36 +126,84 @@ namespace Main
 
         
 
-        public static void CargarArreglo(DetallesPersonas[] arreglo) 
+        public static void CargarArreglo(DetallesPersonas[] arreglo,ListaPersona l) 
         {
             /*Recordar que si no tengo cardinalidad (longitud/cantidad) de antemano,
              siempre puedo cargar un arreglo con una longitud re grande hasta que el usuario corte con 0 o algun caracter*/
+            bool finDeCarga = false;
 
+          
 
-
-            for (int i = 0; i < arreglo.Length; i++)
+            for (int i = 0; i < arreglo.Length && finDeCarga != true; i++)
             {
+
                 arreglo[i].id_pk = (i + 1); // podria agregar logica de cancelar con    usuario 'n', aunque me dejaria  espacios vacios en el array (despues puedo elegir no mostrarlos igual :P)
 
-                Console.WriteLine($" Ingrese username para el usuario de posicion [ {arreglo[i]} ] del array");
+                Console.WriteLine($" Ingrese username para el usuario de posicion [ {i} ] del array \n" +
+                    $" ((Ingrese 'n' en este punto  para dejar de cargar)) ");
                 arreglo[i].username = Console.ReadLine();
-                Console.WriteLine(" Ingrese correo electronico ");
-                arreglo[i].email = Console.ReadLine();
-                Console.WriteLine(" Ingrese la edad del usuario ");
-                arreglo[i].edad = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Persona cargada\n" +
-                    " \n" +
-                    "___  ___  ___  ___\n" +
-                    "");
+                if (arreglo[i].username.ToUpper() != "N"  )
+                {
+                    Console.WriteLine(" Ingrese correo electronico ");
+                    arreglo[i].email = Console.ReadLine();
+                    Console.WriteLine(" Ingrese la edad del usuario ");
+                    arreglo[i].edad = int.Parse(Console.ReadLine());
+
+                    l.InsertarEnLista(arreglo[i].id_pk, arreglo[i].edad, arreglo[i].username, arreglo[i].email); //llamo al metodo de LISTAPERSONAS  para crear la  lista
+
+                    Console.WriteLine("Persona cargada\n" +
+                        " \n" +
+                        "___  ___  ___  ___\n" +
+                        "");
+                }
+                else
+                {
+                    finDeCarga = true;
+                }
+                
+                
             }
 
+            MostrarArreglo(arreglo, l); // ya uso este metodo para que me muestre el arreglo :)P
 
         }
 
 
-        public static void MostrarArreglo()
+        public static void MostrarArreglo(DetallesPersonas[] arreglo,  ListaPersona lp)
         {
+            Console.WriteLine("Info de arreglo:");
+
+            for (int i = 0; i < arreglo.Length && arreglo[i].id_pk != 0; i++) // mostramos mientras  no pasemos longitud ni encontremos 0
+            {
+                Console.WriteLine($" Nombre de usuario : {arreglo[i].username}\n" +
+                    $" Id : {arreglo[i].id_pk} \n" +
+                    $" Edad : {arreglo[i].edad} \n" +
+                    $" Correo Electronico {arreglo[i].email}");
+                Console.WriteLine("__   ___   __   ___   __   ___\n" +
+                    "");
+            }
+
+            int opc;
+            Console.WriteLine("Desea mostrar la informacion de la lista generada a partir del arreglo?\n" +
+                " 1:Si / 2:No");
+            opc = int.Parse(Console.ReadLine());
+
+            switch (opc)
+            {
+                case 1:
+                    lp.MostrarLista();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Metodo finalizado");
+                    break;
+                default:
+                    Console.WriteLine("Por favor ingrese una opcion valida la proxima vez");
+                    break;
+            }
+
+
 
         }
 
